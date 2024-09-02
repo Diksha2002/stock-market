@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Stock Market Analysis</h1>
+    <div class="container">
+        <div class="left-section">
+            <div id="chart-section">
+                <canvas id="stockChart"></canvas>
+                <div id="peakLowValues">
+                    <p id="peakValue">Peak Value: $0.00</p>
+                    <p id="lowValue">Low Value: $0.00</p>
+                </div>
+            </div>
+            <div id="range-buttons">
+                <button data-range="1mo">1 Month</button>
+                <button data-range="3mo">3 Months</button>
+                <button data-range="1y">1 Year</button>
+                <button data-range="5y">5 Years</button>
+            </div>
+            <div id="details-section">
+                <p id="stockDetails"></p>
+                <p id="summary"></p>
+            </div>
+        </div>
+        <div class="right-section">
+            <div id="stockList"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
+    <script src="script.js"></script>
+</body>
+</html>

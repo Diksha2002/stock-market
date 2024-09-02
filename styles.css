@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #301934;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+}
+
+.left-section {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.right-section {
+    flex: 1;
+}
+
+#range-buttons {
+    margin-top: 10px;
+}
+
+#chart-section {
+    background-color: #F8C8DC;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#details-section {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #F8C8DC;
+}
+
+#peakLowValues {
+    margin-top: 10px;
+}
+
+.stock-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.profit-positive {
+    color: green;
+}
+
+.profit-negative {
+    color: red;
+}
+
+#details-section p {
+    font-weight: bold;
+    color:  #301934;
+}
+
+#summary {
+    font-weight: normal;
+    color: #301934;
+    margin-top: 10px;
+}
+#stockDetails span {
+    margin-right: 10px; /* Adjust the value as needed */
+}
